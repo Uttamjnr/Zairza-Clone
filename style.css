@@ -161,15 +161,49 @@ h2{
 }
 
 /* Section-4 + Folder Area  */
-
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .text-4{
     text-align: center;
 }
-.folder-area{
+
+/* Folder-area  */
+
+.folders{
+    width: 80%;
+}
+.text-area{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 10px 0px ;
+    background-color: #362D6D;
+    justify-content: space-between;
+}
+.folder-area{
     background-color: #1A1635;
+    border-radius: 20px;
+}
+.folder-area .elem{
+    padding: 10px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+select{
+    /* color: black; */
+    border-radius: 4px ;
+    background: none;
+}
+option{
+    background-color: #362D6D;
+}
+.elem div{
+    padding: 10px;
 }
 .text-area{
     text-align: center;
